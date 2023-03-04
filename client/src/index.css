@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  background-image: url("back_img.png");
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-text{
+ color: white;
+ font-weight: 500;
+ margin-top: 7px;
+ font-size: 17px;
+ padding: 7px;
+}
+
+
+
+
+.rainbow{
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+  100%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
+}
+.navtitle{
+  animation: navtitle 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes navtitle{
+  100%,0%{
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+  8%{
+    color: #E0E0E0;
+    font-size: 24px;
+  }
+  16%{
+    color: #C0C0C0;
+    font-size: 22px;
+  }
+  25%{
+    color: #A0A0A0;
+    font-size: 20px;
+  }
+  33%{
+    color: #808080;
+    font-size: 18px;
+  }
+  41%{
+    color: #606060;
+    font-size: 16px;
+  }
+  50%{
+    color: #404040;
+    font-size: 18px;
+  }
+  58%{
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  66%{
+    color: #C0C0C0;
+    font-size: 22px;
+  }
+  75%{
+    color: #808080;
+    font-size: 24px;
+  }
+  83%{
+    color: #606060;
+    font-size: 26px;
+  }
+  91%{
+    color: #404040;
+  }
+}
+.cardName{
+  animation: cardName 3.6s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cardName{
+  100%,0%{
+    color: #FFFFFF;
+  }
+  8%{
+    color: #E0E0E0;
+  }
+  16%{
+    color: #C0C0C0;
+  }
+  25%{
+    color: #A0A0A0;
+  }
+  33%{
+    color: #808080;
+  }
+  41%{
+    color: #606060;
+  }
+  50%{
+    color: #404040;
+  }
+  58%{
+    color: #404040;
+  }
+  66%{
+    color: #404040;
+  }
+  75%{
+    color: #FFFFFF;
+  }
+  83%{
+    color: #FFFFFF;
+  }
+  91%{
+    color: #FFFFFF;
+  }
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+
+.tourName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.hrtags{
+  border-top: 5px dotted;
+}
+
+.image404{
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.tagErrMsg{
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.header-text:hover{
+  background-color: white;
+  color: black;
+  
+  
+  border-radius: 30px;
+  
+}
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h4:before,
+h4:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
