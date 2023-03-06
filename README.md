@@ -41,7 +41,7 @@ The above image shows the `home page` when the user successfully `login/signup`.
 In the navbar, it shows the name of the user in a color-changing format. The user can like or unlike a review now.
 
 <div align="center">
-    <img src="./asset/like_dislike.png">
+    <img width="150" height="260" src="./asset/like_dislike.png">
 </div>
 <br/>
 
