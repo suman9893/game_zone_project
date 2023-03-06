@@ -49,7 +49,7 @@ The user after `login/signup` can `like` or `unlike` a review.
 
 ### Read More
 
-Each review page contains a read more `link` which redirects to the detailed view of the review.
+Each review contains a read more `link` which redirects to the detailed view of the review.
 
 ![Detail1](/asset/Detailed1.png)
 
@@ -57,8 +57,8 @@ Each review page contains a read more `link` which redirects to the detailed vie
 
 ![Detail3](/asset/Detailed3.png)
 
-The above two images show the `read more` page of the BGMI review. The first image shows a big poster of the review.
+The above three images show the `read more` page of the BGMI review. The first image shows a big poster of the review.
 
-The second image shows the `username` of the user who created the review, the `duration` from the date the review was created and the description of the review. It also try to show almost three `related tags` review.
+The second image shows the `username` of the user who created the review, the `duration` from the date the review was created and the description of the review. It also tries to show almost three `related tags` review.
 
 The last image shows a comment section created with the help of `Disqus` where the user can login with `Facebook` `Disqus` `Twitter` or `Google`.
