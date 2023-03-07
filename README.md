@@ -15,7 +15,7 @@ The client part is the front end and the server part is the back end of the proj
 
 # Features
 
-#### Register
+#### Register/Login
 
 ![Register](/asset/register%20page.png)
 
@@ -62,3 +62,56 @@ The above three images show the `read more` page of the BGMI review. The first i
 The second image shows the `username` of the user who created the review, the `duration` from the date the review was created and the description of the review. It also tries to show almost three `related tags` review.
 
 The last image shows a comment section created with the help of `Disqus` where the user can login with `Facebook` `Disqus` `Twitter` or `Google`.
+
+### Add Review
+
+![addreview](/asset/Addreview.png)
+
+On this page, the user can add a review of any game. The user has to provide the required details to add a review.
+
+![addreviewerror](/asset/addreviewerror.png)
+
+Otherwise, an error message to fill up the required field will be shown.
+
+### Dashboard
+
+![dashboard](/asset/Dashboard.png)
+
+On the Dashboard page, the user may `delete` the reviews added by the user or may `update` the review.
+
+![updatereview](/asset/updatereview.png)
+
+On clicking the `edit` button, the user will be redirected to the `update` review page where the user can update the existing review.
+
+### Tag Page
+
+![tagpage](/asset/tagpage.png)
+
+On clicking on any `tag` on the review, the user will be redirected to the page where the user can see the reviews related to the tag clicked upon.
+
+### Search
+
+![search](/asset/search.png)
+
+On searching in the search bar for any review it returns all the reviews matching the search keyword.
+
+![searchNothing](/asset/searchnothing.png)
+
+If `nothing` related to the search is found the website shows a related message.
+
+### Logout
+
+On clicking on the `logout` in the navbar the user gets logout and cannot access protected routes anymore. Game-Zone uses `JSON Web Token (JWT)` which automatically expires after `an hour` the user stop using Game-Zone.
+
+### Toastify
+
+<div align="center">
+    <img src="./asset/toastify1.png">
+</div>
+<br/>
+<div align="center">
+    <img src="./asset/toastify2.png">
+</div>
+<br/>
+
+Game-Zone uses `toastify` to show related error messages sent by the server part.
